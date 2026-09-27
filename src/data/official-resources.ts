@@ -11,10 +11,10 @@ export const OFFICIAL_RESOURCES_DATA: OfficialResourceItem[] = [
     description: 'Official direct portal to access, view, and legally download complete NCERT textbooks for all subjects from primary to senior secondary levels in Hindi, English, and Urdu.',
     hindiDescription: 'कक्षा 1 से 12 तक की सभी विषयों की एनसीईआरटी पाठ्यपुस्तकों को निःशुल्क एवं विधिक रूप से डाउनलोड करने का आधिकारिक केंद्रीय पोर्टल।',
     directLinks: [
-      { label: 'NCERT Primary Classes 1–5 (Math-Magic, Rimjhim, Looking Around)', url: 'https://ncert.nic.in/textbook.php', classRange: 'Classes 1–5 (PRT Base)' },
-      { label: 'NCERT Upper Primary Classes 6–8 (Science, Social Science, Math)', url: 'https://ncert.nic.in/textbook.php', classRange: 'Classes 6–8' },
-      { label: 'NCERT Secondary Classes 9–10 (Math, Science, Social Science)', url: 'https://ncert.nic.in/textbook.php', classRange: 'Classes 9–10 (TGT Foundation)' },
-      { label: 'NCERT Higher Secondary Classes 11–12 (Physics, Chem, Bio, History, Polity)', url: 'https://ncert.nic.in/textbook.php', classRange: 'Classes 11–12 (TGT Advanced)' }
+      { label: 'NCERT Primary Classes 1–5 (Math-Magic, Rimjhim, Looking Around)', url: 'https://ncert.nic.in/textbook.php?eemh1=0-14', classRange: 'Classes 1–5 (PRT Base)' },
+      { label: 'NCERT Upper Primary Classes 6–8 (Science, Social Science, Math)', url: 'https://ncert.nic.in/textbook.php?hesc1=0-18', classRange: 'Classes 6–8' },
+      { label: 'NCERT Secondary Classes 9–10 (Math, Science, Social Science)', url: 'https://ncert.nic.in/textbook.php?jemh1=0-15', classRange: 'Classes 9–10 (TGT Foundation)' },
+      { label: 'NCERT Higher Secondary Classes 11–12 (Physics, Chem, Bio, History, Polity)', url: 'https://ncert.nic.in/textbook.php?keps2=0-10', classRange: 'Classes 11–12 (TGT Advanced)' }
     ]
   },
   {
@@ -23,11 +23,11 @@ export const OFFICIAL_RESOURCES_DATA: OfficialResourceItem[] = [
     hindiTitle: 'ई-पाठशाला डिजिटल शिक्षण पोर्टल एवं मोबाइल ऐप',
     category: 'NCERT & ePathshala',
     organization: 'CIET-NCERT & Ministry of Education, Govt. of India',
-    url: 'https://epathshala.nic.in',
+    url: 'https://epathshala.ncert.gov.in',
     description: 'Joint initiative showcasing educational audio, video, interactive flipbooks, periodicals, and teacher-educator pedagogical learning resources.',
     hindiDescription: 'शिक्षा मंत्रालय एवं एनसीईआरटी की डिजिटल पहल, जहाँ सभी पाठ्यपुस्तकों के डिजिटल प्रारूप, ऑडियो-विजुअल संसाधन एवं ई-पब उपलब्ध हैं।',
     directLinks: [
-      { label: 'ePathshala Web E-Textbooks Viewer', url: 'https://epathshala.nic.in' },
+      { label: 'ePathshala Web E-Textbooks Viewer', url: 'https://epathshala.ncert.gov.in' },
       { label: 'Google Play Store Mobile App', url: 'https://play.google.com/store/apps/details?id=in.gov.epathshala' }
     ]
   },

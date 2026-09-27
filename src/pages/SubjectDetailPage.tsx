@@ -109,16 +109,32 @@ export const SubjectDetailPage: React.FC = () => {
             </span>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
             <a
-              href={subject.ncertDownloadLink}
+              href="https://epathshala.ncert.gov.in"
+              target="_blank"
+              rel="noreferrer"
+              className="px-3 py-1.5 rounded-xl text-xs font-bold text-emerald-700 dark:text-emerald-300 bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-200 dark:border-emerald-900 flex items-center gap-1.5 hover:underline"
+            >
+              <span>{language === 'hi' ? 'ई-पाठशाला (ePathshala)' : 'ePathshala Portal'}</span>
+              <ExternalLink className="w-3.5 h-3.5" />
+            </a>
+            <a
+              href={subject.ncertDownloadLink || 'https://ncert.nic.in/textbook.php'}
               target="_blank"
               rel="noreferrer"
               className="px-3 py-1.5 rounded-xl text-xs font-bold text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/60 border border-blue-200 dark:border-blue-900 flex items-center gap-1.5 hover:underline"
             >
-              <span>{language === 'hi' ? 'एनसीईआरटी डाउनलोड पोर्टल' : 'NCERT Download Portal'}</span>
+              <span>{language === 'hi' ? 'एनसीईआरटी पोर्टल' : 'NCERT Portal'}</span>
               <ExternalLink className="w-3.5 h-3.5" />
             </a>
+            <Link
+              to="/books"
+              className="px-3 py-1.5 rounded-xl text-xs font-bold text-amber-700 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/60 border border-amber-200 dark:border-amber-900 flex items-center gap-1.5 hover:underline"
+            >
+              <BookOpen className="w-3.5 h-3.5" />
+              <span>{language === 'hi' ? 'सभी पुस्तकें हब' : 'Books Hub'}</span>
+            </Link>
           </div>
         </div>
 

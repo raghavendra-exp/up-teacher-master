@@ -142,9 +142,9 @@ export const BOOKS_DATA: BookItem[] = [
     topicsCovered: ['All NCERT Textbooks Classes 1 to 12', 'Audio/Video Educational Content', 'Flipbooks', 'Teacher Resources'],
     bestUse: 'Free legal access to all official interactive digital textbooks and audio-visual pedagogical materials.',
     limitations: 'Requires internet for initial download or app installation.',
-    officialOrRefLink: 'https://epathshala.nic.in',
+    officialOrRefLink: 'https://epathshala.ncert.gov.in',
     isNcertOrScert: true,
-    downloadUrl: 'https://epathshala.nic.in'
+    downloadUrl: 'https://epathshala.ncert.gov.in'
   },
 
   // --- UP SCERT OFFICIAL TEXTBOOKS ---
@@ -162,9 +162,9 @@ export const BOOKS_DATA: BookItem[] = [
     topicsCovered: ['Basic Hindi Phonetics', 'Vocabulary', 'Stories and Poems', 'Elementary Grammar', 'Cultural Context of UP'],
     bestUse: 'Primary school language reader prescribed in UP Basic schools; essential for PRT teaching methodology.',
     limitations: 'Prescribed for small children; exam aspirants must review for pedagogical context.',
-    officialOrRefLink: 'http://scertup.co.in',
+    officialOrRefLink: 'https://basiceducation.up.gov.in',
     isNcertOrScert: true,
-    downloadUrl: 'http://scertup.co.in'
+    downloadUrl: 'https://diksha.gov.in/up/'
   },
   {
     id: 'scert-hamara-parivesh-3-5',
@@ -180,9 +180,9 @@ export const BOOKS_DATA: BookItem[] = [
     topicsCovered: ['Our Family', 'Local Flora & Fauna of UP', 'Water Sources of UP', 'Fair and Festivals of UP', 'Occupations and Crafts', 'First Aid'],
     bestUse: 'Direct primary source for state-specific environmental and cultural context questions.',
     limitations: 'Elementary level only.',
-    officialOrRefLink: 'http://scertup.co.in',
+    officialOrRefLink: 'https://basiceducation.up.gov.in',
     isNcertOrScert: true,
-    downloadUrl: 'http://scertup.co.in'
+    downloadUrl: 'https://diksha.gov.in/up/'
   },
   {
     id: 'scert-gintara-1-5',
@@ -198,9 +198,9 @@ export const BOOKS_DATA: BookItem[] = [
     topicsCovered: ['Primary Number Concept', 'Local Weights & Measures', 'Shapes', 'Basic Word Problems'],
     bestUse: 'Understanding how mathematical concepts are pedagogically introduced to primary students in UP.',
     limitations: 'Elementary level; needs standard competitive arithmetic books for fast practice.',
-    officialOrRefLink: 'http://scertup.co.in',
+    officialOrRefLink: 'https://basiceducation.up.gov.in',
     isNcertOrScert: true,
-    downloadUrl: 'http://scertup.co.in'
+    downloadUrl: 'https://diksha.gov.in/up/'
   },
 
   // --- REPUTABLE REFERENCE BOOKS ---
@@ -328,7 +328,7 @@ export const BOOKS_DATA: BookItem[] = [
     title: 'Hindi Sahitya Ka Itihas (हिन्दी साहित्य का इतिहास)',
     hindiTitle: 'हिन्दी साहित्य का इतिहास — आचार्य रामचंद्र शुक्ल',
     author: 'Acharya Ramchandra Shukla',
-    publisher: 'Nagari Pracharini Sabha, Varanasi',
+    publisher: 'Nagari Pracharini Sabha / National Digital Archive Edition',
     subject: 'Hindi (हिन्दी)',
     exam: 'UP TGT',
     level: 'Advanced',
@@ -337,8 +337,9 @@ export const BOOKS_DATA: BookItem[] = [
     topicsCovered: ['Adikal (Virgatha Kal)', 'Bhaktikal (Nirgun & Sagun)', 'Ritikal', 'Adhunik Kal (Gadhya & Kavya)', 'Critical Evaluation of Poets'],
     bestUse: 'The foundational masterwork on Hindi literature history from which UP TGT examiners formulate literature questions.',
     limitations: 'Archaic critical prose style; requires guided reading.',
-    officialOrRefLink: 'https://www.nagripracharini.org',
-    isNcertOrScert: false
+    officialOrRefLink: 'https://archive.org/details/in.ernet.dli.2015.346282',
+    isNcertOrScert: true,
+    downloadUrl: 'https://archive.org/details/in.ernet.dli.2015.346282'
   },
   {
     id: 'cdp-deled-scert',
@@ -353,10 +354,10 @@ export const BOOKS_DATA: BookItem[] = [
     purpose: 'Comprehensive',
     topicsCovered: ['Growth & Development', 'Cognitive Theories (Piaget, Bruner)', 'Social Learning (Vygotsky, Bandura)', 'Moral Development (Kohlberg)', 'Behaviorism (Skinner, Pavlov, Thorndike)', 'Intelligence (Gardner, Binet)'],
     bestUse: '100% direct official syllabus match for UP PRT Child Psychology and Teaching Skills.',
-    limitations: 'Physical distribution limited to DIETs; digital versions must be accessed through SCERT portal.',
-    officialOrRefLink: 'http://scertup.co.in',
+    limitations: 'Physical distribution limited to DIETs; digital versions accessible through DIKSHA UP portal.',
+    officialOrRefLink: 'https://basiceducation.up.gov.in',
     isNcertOrScert: true,
-    downloadUrl: 'http://scertup.co.in'
+    downloadUrl: 'https://diksha.gov.in/up/'
   },
   {
     id: 'arihant-computer-awareness',
