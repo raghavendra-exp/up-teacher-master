@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { useParams, useSearchParams, Link } from 'react-router-dom';
 import {
   BookOpen,
   ArrowRight,
@@ -16,27 +16,48 @@ import {
 import { useApp } from '../context/AppContext';
 import { SUBJECTS_DATA } from '../data/subjects';
 import { SYLLABUS_DATA } from '../data/syllabus';
+import { SUBJECT_TOPICS_CATALOG } from '../data/subject-topics';
 import { SubjectBreadcrumbs } from '../components/SubjectBreadcrumbs';
 
 export const SubjectDetailPage: React.FC = () => {
   const { subjectId } = useParams<{ subjectId: string }>();
+  const [searchParams, setSearchParams] = useSearchParams();
   const { language, activeExam, isTopicCompleted, toggleTopicCompletion } = useApp();
 
   const subject = SUBJECTS_DATA.find(s => s.id === subjectId) || SUBJECTS_DATA[0];
   const examKey = activeExam === 'UP_TGT' ? 'UP_TGT' : 'UP_PRT';
   const syllabus = SYLLABUS_DATA[examKey];
 
-  // Find relevant section/chapters
+  // Retrieve rich authentic subject chapters from catalog or fallback to syllabus
+  const catalogEntry = SUBJECT_TOPICS_CATALOG[subject.id];
   const matchingSection = syllabus.sections.find(
     s => s.subjectId === subject.id || s.name.toLowerCase().includes(subject.name.toLowerCase().split(' ')[0])
   ) || syllabus.sections[0];
 
-  const chapters = matchingSection.chapters;
-  const [activeChapterIndex, setActiveChapterIndex] = useState(0);
+  const chapters = (catalogEntry && catalogEntry.chapters.length > 0)
+    ? catalogEntry.chapters
+    : (matchingSection?.chapters || []);
+
+  const chQuery = parseInt(searchParams.get('ch') || '0', 10);
+  const [activeChapterIndex, setActiveChapterIndex] = useState(
+    isNaN(chQuery) || chQuery < 0 || chQuery >= chapters.length ? 0 : chQuery
+  );
+
+  useEffect(() => {
+    const ch = parseInt(searchParams.get('ch') || '0', 10);
+    if (!isNaN(ch) && ch >= 0 && ch < chapters.length) {
+      setActiveChapterIndex(ch);
+    }
+  }, [searchParams, chapters.length]);
+
+  const handleSelectChapter = (idx: number) => {
+    setActiveChapterIndex(idx);
+    setSearchParams({ ch: idx.toString() });
+  };
+
   const currentChapter = chapters[activeChapterIndex] || chapters[0];
 
-  // Setup previous and next topics for the critical requirement
-  const currentTopic = currentChapter.topics[0];
+  // Setup previous and next topics for navigation
   const nextChapter = chapters[activeChapterIndex + 1];
   const prevChapter = chapters[activeChapterIndex - 1];
 
@@ -64,7 +85,7 @@ export const SubjectDetailPage: React.FC = () => {
       href: `/exams/${activeExam}`
     },
     { label: subject.name, hindiLabel: subject.hindiName, href: '/subjects' },
-    { label: currentChapter.name, hindiLabel: currentChapter.hindiName, active: true }
+    { label: currentChapter?.name || subject.name, hindiLabel: currentChapter?.hindiName || subject.hindiName, active: true }
   ];
 
   return (
@@ -137,7 +158,7 @@ export const SubjectDetailPage: React.FC = () => {
           return (
             <button
               key={ch.id}
-              onClick={() => setActiveChapterIndex(idx)}
+              onClick={() => handleSelectChapter(idx)}
               className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold whitespace-nowrap transition-all flex items-center gap-2 cursor-pointer ${
                 isSelected
                   ? 'bg-amber-600 text-white shadow-xs'
@@ -158,16 +179,16 @@ export const SubjectDetailPage: React.FC = () => {
               {language === 'hi' ? 'वर्तमान अध्ययन अध्याय' : 'Current Active Chapter'}
             </span>
             <span className="text-xs font-bold bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 px-2 py-0.5 rounded-full">
-              {currentChapter.weightageEstimated}
+              {currentChapter?.weightageEstimated || 'High Priority'}
             </span>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white">
-            {language === 'hi' ? currentChapter.hindiName : currentChapter.name}
+            {language === 'hi' ? (currentChapter?.hindiName || subject.hindiName) : (currentChapter?.name || subject.name)}
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {currentChapter.topics.map(topic => {
+            {(currentChapter?.topics || []).map(topic => {
               const completed = isTopicCompleted(topic.id);
               return (
                 <div

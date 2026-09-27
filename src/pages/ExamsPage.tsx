@@ -20,7 +20,7 @@ import { ExamId } from '../types';
 
 export const ExamsPage: React.FC = () => {
   const { examId } = useParams<{ examId?: string }>();
-  const { language, activeExam, setActiveExam } = useApp();
+  const { language, activeExam, setActiveExam, openEligibilityModal, openSubjectSelector } = useApp();
 
   const selectedKey = (examId as ExamId) || activeExam || 'UP_PRT';
   const currentExam = EXAMS_DATA[selectedKey] || EXAMS_DATA['UP_PRT'];
@@ -84,6 +84,24 @@ export const ExamsPage: React.FC = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row md:flex-col gap-2 shrink-0">
+            <button
+              type="button"
+              onClick={() => openEligibilityModal(selectedKey)}
+              className="px-4 py-2.5 rounded-xl text-xs font-bold text-amber-900 dark:text-amber-200 bg-amber-100 dark:bg-amber-950/80 hover:bg-amber-200 text-center transition-colors flex items-center justify-center gap-1.5 shadow-xs"
+            >
+              <ShieldCheck className="w-4 h-4 text-amber-600" />
+              <span>{language === 'hi' ? 'पात्रता मानक एवं मेरिट' : 'Eligibility & Selection Norms'}</span>
+            </button>
+            {selectedKey === 'UP_TGT' && (
+              <button
+                type="button"
+                onClick={openSubjectSelector}
+                className="px-4 py-2.5 rounded-xl text-xs font-bold text-white bg-orange-600 hover:bg-orange-700 text-center transition-colors flex items-center justify-center gap-1.5 shadow-xs"
+              >
+                <BookOpen className="w-4 h-4" />
+                <span>{language === 'hi' ? '15+ टीजीटी विषय चुनें' : 'Select TGT Discipline (15+)'}</span>
+              </button>
+            )}
             <Link
               to={`/syllabus/${currentExam.id === 'UP_PRT' ? 'prt' : currentExam.id === 'UP_TGT' ? 'tgt' : 'uptet'}`}
               className="px-4 py-2.5 rounded-xl text-xs font-bold text-white bg-amber-600 hover:bg-amber-700 text-center transition-colors"

@@ -20,7 +20,7 @@ import { ExamId } from '../types';
 
 export const SyllabusPage: React.FC = () => {
   const { examType } = useParams<{ examType?: string }>();
-  const { language, activeExam, isTopicCompleted, toggleTopicCompletion } = useApp();
+  const { language, activeExam, isTopicCompleted, toggleTopicCompletion, openSubjectSelector, openEligibilityModal } = useApp();
 
   const currentKey = examType?.toUpperCase() === 'TGT' ? 'UP_TGT' : examType?.toUpperCase() === 'UPTET' ? 'UPTET' : 'UP_PRT';
   const syllabus = SYLLABUS_DATA[currentKey] || SYLLABUS_DATA['UP_PRT'];
@@ -129,6 +129,37 @@ export const SyllabusPage: React.FC = () => {
           <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
             {language === 'hi' ? syllabus.hindiWhatChanged : syllabus.whatChanged}
           </p>
+        </div>
+
+        {/* Dynamic Action Bar: Subject Selector & Eligibility Info */}
+        <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-slate-100 dark:border-slate-800">
+          <button
+            type="button"
+            onClick={() => openEligibilityModal(currentKey)}
+            className="px-3.5 py-2 rounded-xl text-xs font-bold text-amber-900 dark:text-amber-200 bg-amber-100 dark:bg-amber-950/80 hover:bg-amber-200 transition-colors flex items-center gap-1.5 shadow-xs"
+          >
+            <ShieldCheck className="w-4 h-4 text-amber-600" />
+            <span>{language === 'hi' ? 'पात्रता मानक एवं मेरिट नियम' : 'Check Eligibility & Selection Norms'}</span>
+          </button>
+
+          {currentKey === 'UP_TGT' && (
+            <button
+              type="button"
+              onClick={openSubjectSelector}
+              className="px-3.5 py-2 rounded-xl text-xs font-bold text-white bg-orange-600 hover:bg-orange-700 transition-colors flex items-center gap-1.5 shadow-xs"
+            >
+              <BookOpen className="w-4 h-4" />
+              <span>{language === 'hi' ? '15+ टीजीटी विषय चुनें एवं अध्याय देखें' : 'Browse All 15+ TGT Disciplines'}</span>
+            </button>
+          )}
+
+          <Link
+            to="/tests"
+            className="px-3.5 py-2 rounded-xl text-xs font-bold text-slate-700 dark:text-slate-200 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 transition-colors flex items-center gap-1.5"
+          >
+            <Zap className="w-4 h-4 text-amber-500" />
+            <span>{language === 'hi' ? 'मॉक टेस्ट शुरू करें' : 'Take Mock Test'}</span>
+          </Link>
         </div>
       </div>
 

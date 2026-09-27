@@ -21,6 +21,15 @@ interface AppContextType {
   clearProgress: () => void;
   isSearchOpen: boolean;
   setIsSearchOpen: (open: boolean) => void;
+  selectedTgtSubject: string;
+  setSelectedTgtSubject: (subjectId: string) => void;
+  isEligibilityModalOpen: boolean;
+  eligibilityModalExam: ExamId;
+  openEligibilityModal: (exam?: ExamId) => void;
+  closeEligibilityModal: () => void;
+  isSubjectSelectorOpen: boolean;
+  openSubjectSelector: () => void;
+  closeSubjectSelector: () => void;
 }
 
 const DEFAULT_PROGRESS: UserProgressData = {
@@ -49,6 +58,35 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [activeExam, setActiveExam] = useState<ExamId>(() => {
     return (localStorage.getItem('up_teacher_exam') as ExamId) || 'UP_PRT';
   });
+
+  const [selectedTgtSubject, setSelectedTgtSubjectState] = useState<string>(() => {
+    return localStorage.getItem('up_teacher_tgt_subject') || 'hindi';
+  });
+
+  const setSelectedTgtSubject = (subjectId: string) => {
+    setSelectedTgtSubjectState(subjectId);
+    localStorage.setItem('up_teacher_tgt_subject', subjectId);
+  };
+
+  const [isEligibilityModalOpen, setIsEligibilityModalOpen] = useState<boolean>(false);
+  const [eligibilityModalExam, setEligibilityModalExam] = useState<ExamId>('UP_PRT');
+
+  const openEligibilityModal = (exam?: ExamId) => {
+    if (exam) {
+      setEligibilityModalExam(exam);
+    } else {
+      setEligibilityModalExam(activeExam);
+    }
+    setIsEligibilityModalOpen(true);
+  };
+
+  const closeEligibilityModal = () => {
+    setIsEligibilityModalOpen(false);
+  };
+
+  const [isSubjectSelectorOpen, setIsSubjectSelectorOpen] = useState<boolean>(false);
+  const openSubjectSelector = () => setIsSubjectSelectorOpen(true);
+  const closeSubjectSelector = () => setIsSubjectSelectorOpen(false);
 
   const [isSearchOpen, setIsSearchOpen] = useState<boolean>(false);
 
@@ -211,7 +249,16 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         isQuestionInMistakes,
         clearProgress,
         isSearchOpen,
-        setIsSearchOpen
+        setIsSearchOpen,
+        selectedTgtSubject,
+        setSelectedTgtSubject,
+        isEligibilityModalOpen,
+        eligibilityModalExam,
+        openEligibilityModal,
+        closeEligibilityModal,
+        isSubjectSelectorOpen,
+        openSubjectSelector,
+        closeSubjectSelector
       }}
     >
       {children}
