@@ -2,8 +2,8 @@
 > **UP PRT + UP TGT Complete Preparation Platform**  
 > *A production-quality, responsive, bilingual educational self-study platform for Uttar Pradesh Teacher Recruitment Examinations.*
 
-[![Deploy to GitHub Pages](https://github.com/raghavendra/up-teacher-master/actions/workflows/deploy.yml/badge.svg)](https://github.com/raghavendra/up-teacher-master/actions/workflows/deploy.yml)
-[![Daily Updates](https://github.com/raghavendra/up-teacher-master/actions/workflows/update-current-affairs.yml/badge.svg)](https://github.com/raghavendra/up-teacher-master/actions/workflows/update-current-affairs.yml)
+[![Deploy to GitHub Pages](https://github.com/raghavendra-exp/up-teacher-master/actions/workflows/deploy.yml/badge.svg)](https://github.com/raghavendra-exp/up-teacher-master/actions/workflows/deploy.yml)
+[![Daily Updates](https://github.com/raghavendra-exp/up-teacher-master/actions/workflows/update-current-affairs.yml/badge.svg)](https://github.com/raghavendra-exp/up-teacher-master/actions/workflows/update-current-affairs.yml)
 [![PWA Ready](https://img.shields.io/badge/PWA-Installable%20%26%20Offline-orange)](https://github.com)
 [![License](https://img.shields.io/badge/License-Copyright--Safe%20Educational-emerald)](https://github.com)
 
