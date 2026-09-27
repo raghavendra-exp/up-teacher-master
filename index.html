@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="hi" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#d97706" />
+    <meta name="description" content="UP Teacher Master: Complete self-study preparation platform for UP Primary Assistant Teacher (Super TET) and UP TGT recruitment examinations under UPESSC. Free practice questions, official syllabi, and direct NCERT links." />
+    <meta name="keywords" content="UP PRT, Super TET, UP TGT, UPTET, UPESSC, Uttar Pradesh Teacher Recruitment, NCERT Books, Teaching Skills, Child Psychology, UP GK, D.El.Ed, B.Ed" />
+
+    <title>UP Teacher Master — UP PRT + UP TGT Complete Preparation Platform</title>
+
+    <link rel="manifest" href="./manifest.json" />
+
+    <!-- Google Fonts for crisp Latin and Devanagari Hindi typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Service worker registration for PWA -->
+    <script>
+      if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js').catch(err => {
+            console.log('Service Worker registration skipped or failed: ', err);
+          });
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./src/main.tsx"></script>
+  </body>
+</html>

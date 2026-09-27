@@ -1,0 +1,648 @@
+[
+  {
+    "id": "PYQ-UP-001",
+    "exam": "UP_PRT",
+    "subject": "General Studies",
+    "chapter": "Previous Examination",
+    "topic": "Official Questions",
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "question": "Who established the 'Arya Samaj' in 1875?",
+    "hindiQuestion": "1875 ई. में 'आर्य समाज' की स्थापना किसने की थी?",
+    "options": [
+      "Swami Dayanand Saraswati",
+      "Raja Ram Mohan Roy",
+      "Swami Vivekananda",
+      "Keshab Chandra Sen"
+    ],
+    "hindiOptions": [
+      "स्वामी दयानंद सरस्वती",
+      "राजा राममोहन राय",
+      "स्वामी विवेकानंद",
+      "केशव चंद्र सेन"
+    ],
+    "answer": 0,
+    "explanation": "Swami Dayanand Saraswati founded Arya Samaj on 10 April 1875 in Bombay with the slogan 'Back to the Vedas'.",
+    "hindiExplanation": "स्वामी दयानंद सरस्वती ने 10 अप्रैल 1875 को मुंबई में आर्य समाज की स्थापना की और 'वेदों की ओर लौटो' का नारा दिया।",
+    "sourceType": "pyq",
+    "tags": [
+      "pyq",
+      "official",
+      "up_69,000_assistant_teacher"
+    ],
+    "pyqDetails": {
+      "examName": "UP 69,000 Assistant Teacher",
+      "year": 2019,
+      "paper": "General Paper",
+      "officialAnswerKeyRef": "Final Answer Key Q42"
+    }
+  },
+  {
+    "id": "PYQ-UP-002",
+    "exam": "UP_PRT",
+    "subject": "General Studies",
+    "chapter": "Previous Examination",
+    "topic": "Official Questions",
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "question": "Which gas is predominantly responsible for global warming and greenhouse effect?",
+    "hindiQuestion": "ग्लोबल वार्मिंग एवं हरित गृह प्रभाव के लिए मुख्य रूप से उत्तरदायी गैस कौन सी है?",
+    "options": [
+      "Carbon Dioxide (CO2)",
+      "Oxygen (O2)",
+      "Nitrogen (N2)",
+      "Argon (Ar)"
+    ],
+    "hindiOptions": [
+      "कार्बन डाइऑक्साइड (CO2)",
+      "ऑक्सीजन",
+      "नाइट्रोजन",
+      "आर्गन"
+    ],
+    "answer": 0,
+    "explanation": "Carbon dioxide accounts for the largest fraction of radiative forcing among anthropogenic greenhouse gases.",
+    "hindiExplanation": "कार्बन डाइऑक्साइड ग्रीनहाउस प्रभाव के लिए उत्तरदायी प्रमुख गैस है।",
+    "sourceType": "pyq",
+    "tags": [
+      "pyq",
+      "official",
+      "up_69,000_assistant_teacher"
+    ],
+    "pyqDetails": {
+      "examName": "UP 69,000 Assistant Teacher",
+      "year": 2019,
+      "paper": "General Paper",
+      "officialAnswerKeyRef": "Final Answer Key Q18"
+    }
+  },
+  {
+    "id": "PYQ-UP-003",
+    "exam": "UP_PRT",
+    "subject": "General Studies",
+    "chapter": "Previous Examination",
+    "topic": "Official Questions",
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "question": "Who is the author of the national song 'Vande Mataram'?",
+    "hindiQuestion": "भारत के राष्ट्रीय गीत 'वन्दे मातरम्' के रचयिता कौन हैं?",
+    "options": [
+      "Bankim Chandra Chattopadhyay",
+      "Rabindranath Tagore",
+      "Sarojini Naidu",
+      "Sri Aurobindo"
+    ],
+    "hindiOptions": [
+      "बंकिम चंद्र चट्टोपाध्याय",
+      "रवीन्द्रनाथ टैगोर",
+      "सरोजिनी नायडू",
+      "श्री अरबिंदो"
+    ],
+    "answer": 0,
+    "explanation": "Vande Mataram was composed by Bankim Chandra Chattopadhyay in his 1882 novel Anandamath.",
+    "hindiExplanation": "वन्दे मातरम् की रचना बंकिम चंद्र चट्टोपाध्याय ने अपने प्रसिद्ध उपन्यास आनंदमठ (1882) में की थी।",
+    "sourceType": "pyq",
+    "tags": [
+      "pyq",
+      "official",
+      "up_69,000_assistant_teacher"
+    ],
+    "pyqDetails": {
+      "examName": "UP 69,000 Assistant Teacher",
+      "year": 2019,
+      "paper": "General Paper",
+      "officialAnswerKeyRef": "Final Answer Key Q33"
+    }
+  },
+  {
+    "id": "PYQ-UP-004",
+    "exam": "UP_PRT",
+    "subject": "General Studies",
+    "chapter": "Previous Examination",
+    "topic": "Official Questions",
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "question": "In computer science, what does 'RAM' stand for?",
+    "hindiQuestion": "कम्प्यूटर विज्ञान में 'RAM' का पूर्ण रूप क्या है?",
+    "options": [
+      "Random Access Memory",
+      "Read Access Memory",
+      "Rapid Action Module",
+      "Remote Access Mechanism"
+    ],
+    "hindiOptions": [
+      "रैंडम एक्सेस मेमोरी (Random Access Memory)",
+      "रीड एक्सेस मेमोरी",
+      "रैपिड एक्शन मॉड्यूल",
+      "रिमोट एक्सेस मैकेनिज्म"
+    ],
+    "answer": 0,
+    "explanation": "RAM is primary volatile semiconductor storage that allows data items to be read or written in almost the same amount of time.",
+    "hindiExplanation": "RAM का पूर्ण रूप Random Access Memory है। यह कम्प्यूटर की प्राथमिक व अस्थायी (volatile) मेमोरी होती है।",
+    "sourceType": "pyq",
+    "tags": [
+      "pyq",
+      "official",
+      "up_69,000_assistant_teacher"
+    ],
+    "pyqDetails": {
+      "examName": "UP 69,000 Assistant Teacher",
+      "year": 2019,
+      "paper": "General Paper",
+      "officialAnswerKeyRef": "Final Answer Key Q112"
+    }
+  },
+  {
+    "id": "PYQ-UP-005",
+    "exam": "UP_PRT",
+    "subject": "General Studies",
+    "chapter": "Previous Examination",
+    "topic": "Official Questions",
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "question": "Which gland in the human body is known as the 'Master Gland'?",
+    "hindiQuestion": "मानव शरीर में किस ग्रंथि को 'मास्टर ग्रंथि' (Master Gland) कहा जाता है?",
+    "options": [
+      "Pituitary Gland (पीयूष ग्रंथि)",
+      "Thyroid Gland",
+      "Adrenal Gland",
+      "Pancreas"
+    ],
+    "hindiOptions": [
+      "पीयूष ग्रंथि (Pituitary Gland)",
+      "थायरॉयड ग्रंथि",
+      "अधिवृक्क ग्रंथि",
+      "अग्न्याशय"
+    ],
+    "answer": 0,
+    "explanation": "The pituitary gland controls the function of most other endocrine glands and is situated at the base of the brain.",
+    "hindiExplanation": "पीयूष ग्रंथि अन्य अंतःस्रावी ग्रंथियों के स्राव को नियंत्रित करती है, इसलिए इसे मास्टर ग्रंथि कहते हैं।",
+    "sourceType": "pyq",
+    "tags": [
+      "pyq",
+      "official",
+      "up_69,000_assistant_teacher"
+    ],
+    "pyqDetails": {
+      "examName": "UP 69,000 Assistant Teacher",
+      "year": 2019,
+      "paper": "General Paper",
+      "officialAnswerKeyRef": "Final Answer Key Q64"
+    }
+  },
+  {
+    "id": "PYQ-UP-006",
+    "exam": "UP_TGT",
+    "subject": "General Studies",
+    "chapter": "Previous Examination",
+    "topic": "Official Questions",
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "question": "Which poet is renowned as the author of the epic 'Kamayani'?",
+    "hindiQuestion": "हिन्दी साहित्य के छायावादी महाकाव्य 'कामायनी' के रचनाकार कौन हैं?",
+    "options": [
+      "Jaishankar Prasad",
+      "Suryakant Tripathi Nirala",
+      "Sumitranandan Pant",
+      "Mahadevi Varma"
+    ],
+    "hindiOptions": [
+      "जयशंकर प्रसाद",
+      "सूर्यकांत त्रिपाठी 'निराला'",
+      "सुमित्रानंदन पंत",
+      "महादेवी वर्मा"
+    ],
+    "answer": 0,
+    "explanation": "Kamayani (1936) is an allegorical epic poem written by Jaishankar Prasad depicting Manu, Shraddha, and Ida.",
+    "hindiExplanation": "कामायनी (1936) छायावाद के शीर्ष कवि जयशंकर प्रसाद द्वारा रचित 15 सर्गों का अमर महाकाव्य है।",
+    "sourceType": "pyq",
+    "tags": [
+      "pyq",
+      "official",
+      "up_tgt_hindi"
+    ],
+    "pyqDetails": {
+      "examName": "UP TGT Hindi",
+      "year": 2021,
+      "paper": "Subject Paper",
+      "officialAnswerKeyRef": "UPESSC Key Q04"
+    }
+  },
+  {
+    "id": "PYQ-UP-007",
+    "exam": "UP_TGT",
+    "subject": "General Studies",
+    "chapter": "Previous Examination",
+    "topic": "Official Questions",
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "question": "Who wrote the play 'Abhijnanasakuntalam'?",
+    "hindiQuestion": "विश्वप्रसिद्ध संस्कृत नाटक 'अभिज्ञानशाकुन्तलम्' के रचयिता कौन हैं?",
+    "options": [
+      "Mahakavi Kalidasa",
+      "Bhavabhuti",
+      "Bhasa",
+      "Banabhatta"
+    ],
+    "hindiOptions": [
+      "महाकवि कालिदास",
+      "भवभूति",
+      "भास",
+      "बाणभट्ट"
+    ],
+    "answer": 0,
+    "explanation": "Abhijnanasakuntalam is widely considered the greatest theatrical masterpiece composed by Mahakavi Kalidasa.",
+    "hindiExplanation": "अभिज्ञानशाकुन्तलम् महाकवि कालिदास की विश्वविख्यात नाट्य कृति है।",
+    "sourceType": "pyq",
+    "tags": [
+      "pyq",
+      "official",
+      "up_tgt_sanskrit"
+    ],
+    "pyqDetails": {
+      "examName": "UP TGT Sanskrit",
+      "year": 2021,
+      "paper": "Subject Paper",
+      "officialAnswerKeyRef": "Official Key Q12"
+    }
+  },
+  {
+    "id": "PYQ-69K-001",
+    "exam": "UP_PRT",
+    "subject": "Hindi",
+    "chapter": "Hindi Grammar",
+    "topic": "Varnamala",
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "question": "Which of the following sounds belongs to the 'Murdhanya' (मूर्धन्य) place of articulation?",
+    "hindiQuestion": "निम्न में से कौन सी ध्वनि 'मूर्धन्य' (मूर्धा से उच्चरित) है?",
+    "options": [
+      "ट (Ṭa) sound group",
+      "च (Ca) sound group",
+      "त (Ta) sound group",
+      "प (Pa) sound group"
+    ],
+    "hindiOptions": [
+      "ट वर्ग",
+      "च वर्ग (तालव्य)",
+      "त वर्ग (दन्त्य)",
+      "प वर्ग (ओष्ठ्य)"
+    ],
+    "answer": 0,
+    "explanation": "ऋ, ट, ठ, ड, ढ, ण, र, ष मूर्धा से उच्चरित होते हैं (ऋटुरषाणां मूर्धा)।",
+    "hindiExplanation": "ऋ, ट, ठ, ड, ढ, ण, र और ष का उच्चारण स्थान मूर्धा है।",
+    "sourceType": "pyq",
+    "pyqDetails": {
+      "examName": "UP 69,000 Assistant Teacher",
+      "year": 2019,
+      "paper": "General Paper",
+      "officialAnswerKeyRef": "Official Key Q08"
+    },
+    "tags": [
+      "pyq",
+      "hindi",
+      "prt_2019"
+    ]
+  },
+  {
+    "id": "PYQ-69K-002",
+    "exam": "UP_PRT",
+    "subject": "Child Development",
+    "chapter": "Learning Theories",
+    "topic": "Thorndike",
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "question": "Which of the following is considered the 'Secondary Law' of learning according to Thorndike?",
+    "hindiQuestion": "थार्नडाइक के अनुसार निम्न में से कौन सा सीखने का गौण (द्वितीयक) नियम है?",
+    "options": [
+      "Law of Multiple Response (बहु-प्रतिक्रिया का नियम)",
+      "Law of Readiness",
+      "Law of Exercise",
+      "Law of Effect"
+    ],
+    "hindiOptions": [
+      "बहु-प्रतिक्रिया का नियम",
+      "तत्परता का नियम (मुख्य)",
+      "अभ्यास का नियम (मुख्य)",
+      "प्रभाव का नियम (मुख्य)"
+    ],
+    "answer": 0,
+    "explanation": "Thorndike's 5 secondary laws are: Multiple response, Attitude/disposition, Partial activity, Analogy/assimilation, Associative shifting.",
+    "hindiExplanation": "थार्नडाइक के 5 गौण नियम हैं: बहु-अनुक्रिया, मनोवृत्ति, आंशिक क्रिया, सादृश्यता तथा सहचर्यात्मक रूपांतरण।",
+    "sourceType": "pyq",
+    "pyqDetails": {
+      "examName": "UP 69,000 Assistant Teacher",
+      "year": 2019,
+      "paper": "General Paper",
+      "officialAnswerKeyRef": "Official Key Q45"
+    },
+    "tags": [
+      "pyq",
+      "cdp",
+      "prt_2019"
+    ]
+  },
+  {
+    "id": "PYQ-69K-003",
+    "exam": "UP_PRT",
+    "subject": "General Knowledge",
+    "chapter": "Modern India",
+    "topic": "Bhartendu Harishchandra",
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "question": "Who edited the famous Hindi literary journal 'Kavi Vachan Sudha' published from Kashi (Varanasi)?",
+    "hindiQuestion": "काशी (वाराणसी) से प्रकाशित होने वाली प्रसिद्ध पत्रिका 'कविवचन सुधा' के संपादक कौन थे?",
+    "options": [
+      "Bhartendu Harishchandra",
+      "Mahavir Prasad Dwivedi",
+      "Pratap Narayan Mishra",
+      "Bal Krishna Bhatt"
+    ],
+    "hindiOptions": [
+      "भारतेन्दु हरिश्चंद्र",
+      "महावीर प्रसाद द्विवेदी (सरस्वती)",
+      "प्रतापनारायण मिश्र (ब्राह्मण)",
+      "बालकृष्ण भट्ट (हिन्दी प्रदीप)"
+    ],
+    "answer": 0,
+    "explanation": "Bhartendu Harishchandra started publishing 'Kavi Vachan Sudha' in 1868 from Kashi.",
+    "hindiExplanation": "भारतेन्दु हरिश्चंद्र ने 1868 ई. में काशी से 'कविवचन सुधा' का संपादन प्रारंभ किया था।",
+    "sourceType": "pyq",
+    "pyqDetails": {
+      "examName": "UP 69,000 Assistant Teacher",
+      "year": 2019,
+      "paper": "General Paper",
+      "officialAnswerKeyRef": "Official Key Q14"
+    },
+    "tags": [
+      "pyq",
+      "gk",
+      "prt_2019"
+    ]
+  },
+  {
+    "id": "PYQ-69K-004",
+    "exam": "UP_PRT",
+    "subject": "Science",
+    "chapter": "Physics",
+    "topic": "Lenses & Optics",
+    "difficulty": "medium",
+    "questionType": "numerical",
+    "question": "What is the power of a convex lens having a focal length of 50 cm?",
+    "hindiQuestion": "50 सेमी फोकस दूरी वाले उत्तल लेंस की क्षमता (Power) कितनी होगी?",
+    "options": [
+      "+2.0 Dioptre",
+      "-2.0 Dioptre",
+      "+0.5 Dioptre",
+      "+5.0 Dioptre"
+    ],
+    "hindiOptions": [
+      "+2.0 डायोप्टर",
+      "-2.0 डायोप्टर",
+      "+0.5 डायोप्टर",
+      "+5.0 डायोप्टर"
+    ],
+    "answer": 0,
+    "explanation": "P = 1 / f(in meters). f = 50 cm = 0.5 m. Power = 1 / 0.5 = +2.0 D (positive for convex lens).",
+    "hindiExplanation": "लेंस की क्षमता P = 100 / f(सेमी) = 100 / 50 = +2D (उत्तल लेंस की क्षमता धनात्मक होती है)।",
+    "sourceType": "pyq",
+    "pyqDetails": {
+      "examName": "UP 69,000 Assistant Teacher",
+      "year": 2019,
+      "paper": "General Paper",
+      "officialAnswerKeyRef": "Official Key Q87"
+    },
+    "tags": [
+      "pyq",
+      "science",
+      "prt_2019"
+    ]
+  },
+  {
+    "id": "PYQ-69K-005",
+    "exam": "UP_PRT",
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "topic": "Angles",
+    "difficulty": "easy",
+    "questionType": "numerical",
+    "question": "If two complementary angles are in the ratio 2:3, what is the measure of the smaller angle?",
+    "hindiQuestion": "यदि दो पूरक (कोटिपूरक) कोण 2:3 के अनुपात में हैं, तो छोटे कोण का मान क्या होगा?",
+    "options": [
+      "36 degrees",
+      "54 degrees",
+      "45 degrees",
+      "30 degrees"
+    ],
+    "hindiOptions": [
+      "36°",
+      "54°",
+      "45°",
+      "30°"
+    ],
+    "answer": 0,
+    "explanation": "Complementary angles sum to 90 degrees. 2x + 3x = 90 => 5x = 90 => x = 18. Smaller angle = 2 * 18 = 36 degrees.",
+    "hindiExplanation": "कोटिपूरक कोणों का योग 90° होता है। 2x + 3x = 90 => 5x = 90 => x = 18°। छोटा कोण = 2 × 18 = 36°।",
+    "sourceType": "pyq",
+    "pyqDetails": {
+      "examName": "UP 69,000 Assistant Teacher",
+      "year": 2019,
+      "paper": "General Paper",
+      "officialAnswerKeyRef": "Official Key Q99"
+    },
+    "tags": [
+      "pyq",
+      "math",
+      "prt_2019"
+    ]
+  },
+  {
+    "id": "PYQ-TGT-HIN-001",
+    "exam": "UP_TGT",
+    "subject": "Hindi",
+    "chapter": "Bhaktikal",
+    "topic": "Surdas",
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "question": "In which dialect (Boli) of Hindi did Mahakavi Surdas compose his immortal work 'Sursagar'?",
+    "hindiQuestion": "महाकवि सूरदास ने अपने अमर ग्रंथ 'सूरसागर' की रचना किस भाषा/बोली में की?",
+    "options": [
+      "Braj Bhasha (ब्रजभाषा)",
+      "Awadhi",
+      "Maithili",
+      "Khari Boli"
+    ],
+    "hindiOptions": [
+      "ब्रजभाषा",
+      "अवधी",
+      "मैथिली",
+      "खड़ी बोली"
+    ],
+    "answer": 0,
+    "explanation": "Surdas, the foremost poet of the Ashtachhap, composed Sursagar, Sur Saravali, and Sahitya Lahari in melodious Braj Bhasha.",
+    "hindiExplanation": "अष्टछाप के प्रमुख कवि सूरदास ने वात्सल्य और श्रृंगार से परिपूर्ण रचनाएं ठेठ ब्रजभाषा में कीं।",
+    "sourceType": "pyq",
+    "pyqDetails": {
+      "examName": "UP TGT Hindi",
+      "year": 2021,
+      "paper": "Subject Paper",
+      "officialAnswerKeyRef": "Key Q28"
+    },
+    "tags": [
+      "pyq",
+      "tgt_hindi",
+      "bhaktikal"
+    ]
+  },
+  {
+    "id": "PYQ-TGT-ENG-001",
+    "exam": "UP_TGT",
+    "subject": "English Language & Literature",
+    "chapter": "William Shakespeare",
+    "topic": "Tragedies",
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "question": "Which of the following is considered William Shakespeare's longest play?",
+    "hindiQuestion": "विलियम शेक्सपियर का सबसे लंबा नाटक कौन सा माना जाता है?",
+    "options": [
+      "Hamlet",
+      "Macbeth",
+      "King Lear",
+      "Othello"
+    ],
+    "hindiOptions": [
+      "हैमलेट (Hamlet)",
+      "मैकबेथ",
+      "किंग लियर",
+      "ओथेलो"
+    ],
+    "answer": 0,
+    "explanation": "'Hamlet' (The Tragedy of Hamlet, Prince of Denmark) contains 4,042 lines and roughly 30,000 words, making it Shakespeare's longest play.",
+    "hindiExplanation": "'हैमलेट' शेक्सपियर की सबसे लम्बी नाट्य रचना है, जिसमें 4,000 से अधिक पंक्तियां हैं।",
+    "sourceType": "pyq",
+    "pyqDetails": {
+      "examName": "UP TGT English",
+      "year": 2021,
+      "paper": "Subject Paper",
+      "officialAnswerKeyRef": "Key Q51"
+    },
+    "tags": [
+      "pyq",
+      "tgt_english",
+      "shakespeare"
+    ]
+  },
+  {
+    "id": "PYQ-TGT-MAT-001",
+    "exam": "UP_TGT",
+    "subject": "Mathematics",
+    "chapter": "Coordinate Geometry",
+    "topic": "Conic Sections",
+    "difficulty": "hard",
+    "questionType": "conceptual",
+    "question": "What is the eccentricity (e) of a parabola in coordinate geometry?",
+    "hindiQuestion": "निर्देशांक ज्यामिति में किसी परवलय (Parabola) की उत्केन्द्रता (Eccentricity - e) का मान क्या होता है?",
+    "options": [
+      "e = 1",
+      "e < 1 (Ellipse)",
+      "e > 1 (Hyperbola)",
+      "e = 0 (Circle)"
+    ],
+    "hindiOptions": [
+      "e = 1",
+      "e < 1 (दीर्घवृत्त)",
+      "e > 1 (अतिपरवलय)",
+      "e = 0 (वृत्त)"
+    ],
+    "answer": 0,
+    "explanation": "A conic section is a parabola if and only if eccentricity e = 1 (distance from focus equals distance from directrix).",
+    "hindiExplanation": "परवलय के लिए नाभि से दूरी और नियता से दूरी का अनुपात सदैव 1 होता है (e = 1)।",
+    "sourceType": "pyq",
+    "pyqDetails": {
+      "examName": "UP TGT Mathematics",
+      "year": 2021,
+      "paper": "Subject Paper",
+      "officialAnswerKeyRef": "Key Q72"
+    },
+    "tags": [
+      "pyq",
+      "tgt_math",
+      "conics"
+    ]
+  },
+  {
+    "id": "PYQ-UPTET-2021-001",
+    "exam": "UPTET",
+    "subject": "Child Development",
+    "chapter": "Growth & Development",
+    "topic": "Principles of Development",
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "question": "Which principle states that motor development proceeds from head to toe?",
+    "hindiQuestion": "विकास का कौन सा सिद्धांत बताता है कि गामक विकास सिर से पैर की ओर अग्रसर होता है?",
+    "options": [
+      "Cephalocaudal Principle (मस्तकाधोमुखी सिद्धांत)",
+      "Proximodistal Principle (समीप-दूराभिमुख)",
+      "Principle of Interrelation",
+      "Principle of Spiral Development"
+    ],
+    "hindiOptions": [
+      "मस्तकाधोमुखी सिद्धांत (Cephalocaudal)",
+      "समीप-दूराभिमुख सिद्धांत",
+      "परस्पर संबंध का सिद्धांत",
+      "वर्तुलाकार विकास का सिद्धांत"
+    ],
+    "answer": 0,
+    "explanation": "Cephalocaudal principle dictates that control and muscular coordination progress from head downward toward the trunk and feet.",
+    "hindiExplanation": "मस्तकाधोमुखी (Cephalocaudal) क्रम में शिशु सर्वप्रथम अपने सिर पर, फिर धड़ और अंत में पैरों पर नियंत्रण सीखता है।",
+    "sourceType": "pyq",
+    "pyqDetails": {
+      "examName": "UPTET Paper-1",
+      "year": 2021,
+      "paper": "Child Development Section",
+      "officialAnswerKeyRef": "Official Key Q01"
+    },
+    "tags": [
+      "pyq",
+      "uptet",
+      "cdp"
+    ]
+  },
+  {
+    "id": "PYQ-UPTET-2021-002",
+    "exam": "UPTET",
+    "subject": "Environmental Studies (EVS)",
+    "chapter": "Ecology & Wildlife",
+    "topic": "Wildlife Protection",
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "question": "In which year was the 'Wildlife Protection Act' enacted in India?",
+    "hindiQuestion": "भारत में 'वन्यजीव संरक्षण अधिनियम' किस वर्ष लागू किया गया था?",
+    "options": [
+      "1972",
+      "1980 (Forest Act)",
+      "1986 (Environment Act)",
+      "1974 (Water Act)"
+    ],
+    "hindiOptions": [
+      "1972 ई.",
+      "1980 ई.",
+      "1986 ई.",
+      "1974 ई."
+    ],
+    "answer": 0,
+    "explanation": "The Wildlife Protection Act was passed by the Parliament of India in 1972 to protect plant and animal species.",
+    "hindiExplanation": "वन्यजीवों के शिकार और अवैध व्यापार की रोकथाम हेतु 1972 में वन्यजीव संरक्षण अधिनियम पारित किया गया।",
+    "sourceType": "pyq",
+    "pyqDetails": {
+      "examName": "UPTET Paper-1",
+      "year": 2021,
+      "paper": "EVS Section",
+      "officialAnswerKeyRef": "Official Key Q121"
+    },
+    "tags": [
+      "pyq",
+      "uptet",
+      "evs"
+    ]
+  }
+]
