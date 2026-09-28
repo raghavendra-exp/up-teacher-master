@@ -50,7 +50,7 @@ export const HomePage: React.FC = () => {
     <div className="w-full space-y-12 pb-12">
       {/* Hero Section */}
       <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-amber-600 via-amber-500 to-orange-600 text-white p-6 sm:p-10 lg:p-14 shadow-2xl">
-        <div className="absolute -right-20 -bottom-20 w-80 h-80 rounded-full bg-white/10 blur-2xl pointer-events-none"></div>
+        <div className="absolute right-0 bottom-0 w-64 sm:w-80 h-64 sm:h-80 rounded-full bg-white/10 blur-2xl pointer-events-none overflow-hidden"></div>
         <div className="absolute right-10 top-10 opacity-10 hidden lg:block pointer-events-none">
           <GraduationCap className="w-96 h-96" />
         </div>
